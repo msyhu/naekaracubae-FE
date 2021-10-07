@@ -25,7 +25,7 @@ function Main() {
         }
 
         get();
-    }, []);
+    }, [axios]);
 
     const {email, nickname} = inputs; // 비구조화 할당을 통해 값 추출
 
@@ -85,7 +85,7 @@ function Main() {
                     네,카라쿠배
                 </div>
             </Header>
-            <img src={naekaracubae_main} className="main-image"/>
+            <img src={naekaracubae_main} className="main-image" alt="naekaracubae_main"/>
             <Divider />
             <div className="slogan">우리가 시간이 없지,이직이 안 궁금하냐!</div>
             <Divider />
