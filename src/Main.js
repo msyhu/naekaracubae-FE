@@ -14,7 +14,7 @@ function Main() {
     });
 
     // const baseUrl = 'http://localhost:8089/users';
-    const baseUrl = 'http://naekaracubae.msyhu.com:8089/users';
+    const baseUrl = 'http://3.38.35.79:8089/users';
 
     useEffect(() => {
         async function get() {
