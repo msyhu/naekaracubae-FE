@@ -4,7 +4,13 @@
   text-align: center;
 }
 
-.content {
+.mobile-content {
+  margin: 0 auto;
+  width: 300px;
+  padding: 15px;
+}
+
+.web-content {
   margin: 0 auto;
   width: 500px;
   padding: 15px;
