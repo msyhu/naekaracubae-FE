@@ -1,7 +1,25 @@
 import React, {useState, useEffect} from 'react';
 import {Button, Input, Layout, Divider} from 'antd';
+import { isMobile } from 'react-device-detect';
 import './App.css';
 import naekaracubae_main from './static/images/naekaracubae_main.jpg';
+import naekaracubae_mobile from './static/images/naekaracubae_mobile.png';
+
+function mainImage() {
+
+    const renderItems = () => {
+        if(isMobile) {
+            return <img src={naekaracubae_mobile} className="main-image" alt="naekaracubae_mobile"/>
+        }
+        return <img src={naekaracubae_main} className="main-image" alt="naekaracubae_main"/>
+    }
+
+    return(
+        <div>
+            {renderItems()}
+        </div>
+    )
+}
 
 function Main() {
     const {Header, Content} = Layout;
@@ -85,7 +103,8 @@ function Main() {
                     네,카라쿠배
                 </div>
             </Header>
-            <img src={naekaracubae_main} className="main-image" alt="naekaracubae_main"/>
+            {/*<img src={naekaracubae_main} className="main-image" alt="naekaracubae_main"/>*/}
+            {mainImage()}
             <Divider />
             <div className="slogan">우리가 시간이 없지,이직이 안 궁금하냐!</div>
             <Divider />
