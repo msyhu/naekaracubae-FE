@@ -9,5 +9,9 @@
 - react
 - heroku
 
+## 배포 파이프라인
+![image](https://user-images.githubusercontent.com/81010357/136644562-a312aef6-fb58-492f-b8a0-f7b41deedd5b.png)
+
+
 ## special thanks to
 본 화면은 [뉴닉](https://newneek.co/) 서비스에서 많은 참고를 했습니다. 비영리 목적으로 클론코딩을 진행하고 있습니다.
