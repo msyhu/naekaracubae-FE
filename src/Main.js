@@ -108,7 +108,7 @@ function Main() {
             <Divider />
             <div className="slogan">우리가 시간이 없지,이직이 안 궁금하냐!</div>
             <Divider />
-            <Layout className="content">
+            <Layout className={isMobile? "mobile-content":"web-content"}>
                 <Content>
                     <div>✨지금 <font className="bold">{count}</font>명이 채용정보를 받고 있어요.</div>
                     <br/>
