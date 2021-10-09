@@ -1,7 +1,7 @@
 # naekaracubae-front
 네, 카라쿠배 어플리케이션의 프론트앤드 입니다.
 
-## http://naekaracubae-front.herokuapp.com/
+## http://naekaracubae.msyhu.com/
 ![image](https://user-images.githubusercontent.com/81010357/136644408-13007200-4e8c-458a-bfdb-41f764ac72f9.png)
 
 ## 사용 기술
